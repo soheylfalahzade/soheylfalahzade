@@ -44,5 +44,5 @@ I bridge the gap between **Algorithmic Control Theory** and **Practical Computer
 ---
 
 ## 📫 Let's Connect
-- 💼 **LinkedIn:** [linkedin.com/in/soheyl-falah-zade/](https://www.linkedin.com/in/soheyl-falah-zade/)
+- 💼 **LinkedIn:** [linkedin.com/in/soheyl-falahzade/](https://www.linkedin.com/in/soheyl-falahzade/)
 - 📧 **Academic Email:** [falahzade@stu.yazd.ac.ir](mailto:falahzade@stu.yazd.ac.ir)
