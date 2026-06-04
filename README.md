@@ -26,7 +26,7 @@ I bridge the gap between **Algorithmic Control Theory** and **Practical Computer
 
 ## 🔬 Featured Research & Engineering Project
 
-### 🚦 [Adaptive Traffic Management with Hybrid Co-Simulation (CARLA + SUMO)](https://github.com/soheylfalahzadeh/adaptive-its-priority)
+### 🚦 [Adaptive Traffic Management with Hybrid Co-Simulation (CARLA + SUMO)](https://github.com/soheylfalahzade/adaptive-its-priority)
 *An end-to-end intelligent transportation framework that prioritizes emergency vehicles at complex urban intersections.*
 - **Perception:** Custom YOLOv11m trained on synthetic 3D-to-2D auto-labeled CCTV perspective data (>98% mAP).
 - **Physics & Flow:** Dual-simulator synchronization using a custom TraCI Python bridge between CARLA and SUMO.
@@ -37,12 +37,12 @@ I bridge the gap between **Algorithmic Control Theory** and **Practical Computer
 
 ## 📊 GitHub Stats
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=soheylfalahzadeh&show_icons=true&theme=dark&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="Soheil's GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soheylfalahzadeh&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Langs" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=soheylfalahzade&show_icons=true&theme=dark&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="Soheil's GitHub Stats" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soheylfalahzade&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Langs" width="48%"/>
 </p>
 
 ---
 
 ## 📫 Let's Connect
-- 💼 **LinkedIn:** [linkedin.com/in/soheyl-falahzade/](https://www.linkedin.com/in/soheyl-falahzade/)
+- 💼 **LinkedIn:** [linkedin.com/in/soheyl-falah-zade/](https://www.linkedin.com/in/soheyl-falah-zade/)
 - 📧 **Academic Email:** [falahzade@stu.yazd.ac.ir](mailto:falahzade@stu.yazd.ac.ir)
