@@ -1,19 +1,19 @@
 # Hi there, I'm Soheyl Falahzade 👋
 
-I am an **AI & Computer Vision Research Engineer** specializing in **Intelligent Transportation Systems (ITS)** and **Autonomous Vehicles**. My work focuses on bridging high-fidelity simulations with deep learning perception loops to solve real-world mobility challenges.
+I am an **Autonomous Systems & ITS Engineer** specializing in **high-fidelity simulation pipelines (CARLA/SUMO)** and **low-latency edge vision models**. My work focuses on solving real-world mobility and perception challenges on resource-constrained hardware.
 
 ---
 
-### 🚀 Core Expertise
-*   **Co-Simulation Orchestration:** Bidirectional synchronization of CARLA (3D Physics) and SUMO (Microscopic Traffic) at high frequencies.
-*   **Low-Latency Perception:** Training and deploying custom YOLOv11 networks optimized with TensorRT/ONNX for edge computing.
-*   **Network Optimization:** Designing high-performance routing engines using Graph Theory, Contraction Hierarchies, and GIS data.
+### 🚀 Key Engineering Benchmarks
+*   **Co-Simulation:** Engineered a bidirectional CARLA-SUMO bridge, synchronizing 150+ active agents at 50Hz with <12ms step latency using Python, TraCI, and ROS2.
+*   **Edge Perception:** Optimized custom YOLOv11 detection models via TensorRT INT8 quantization, achieving 110+ FPS on Jetson Xavier with <6ms latency.
+*   **Graph Optimization:** Developed a high-performance routing engine, accelerating shortest-path queries by 14x (to <2ms) on a 12,000-node network.
 
 ---
 
 ### 🛠️ Tech Stack & Tooling
-*   **Simulators & Control:** CARLA, SUMO, TraCI, ROS/ROS2
-*   **Deep Learning & CV:** PyTorch, YOLOv11/v8, OpenCV, Albumentations
+*   **Simulators & Control:** CARLA (0.9.15+), SUMO, TraCI, ROS/ROS2
+*   **Deep Learning & CV:** PyTorch, YOLOv11/v8, OpenCV, Albumentations, ByteTrack
 *   **Optimization & Inference:** ONNX, TensorRT, Quantization (INT8/FP16)
 *   **Languages & OS:** Python, C++, SQL, Linux (Ubuntu/WSL2), Git
 
