@@ -1,48 +1,25 @@
-# Hi, I'm Soheil Fallahzadeh 👋
+# Hi there, I'm Soheyl Falahzade 👋
 
-### Autonomous Systems & Intelligent Transportation Research Engineer
-Master's Student in Computer Science (Algorithms & Theory of Computation) at Yazd University.
-
----
-
-## 🚀 Professional Focus
-I bridge the gap between **Algorithmic Control Theory** and **Practical Computer Vision**. Currently, my research focuses on developing high-fidelity co-simulation frameworks for Autonomous Vehicles and Intelligent Transportation Systems (ITS).
-
-- 🧠 **Research Interests:** Microscopic Traffic Flow Physics, Deep Reinforcement Learning (DRL), Sensor Fusion, Real-time Computer Vision.
-- 🛠️ **Current Active Work:** Building scalable TraCI-based control logic to bridge high-angle perception (YOLOv11) with physics-based traffic simulators (SUMO & CARLA).
+I am an **AI & Computer Vision Research Engineer** specializing in **Intelligent Transportation Systems (ITS)** and **Autonomous Vehicles**. My work focuses on bridging high-fidelity simulations with deep learning perception loops to solve real-world mobility challenges.
 
 ---
 
-## 🛠️ Tech Stack & Tooling
-
-| Domain | Technologies |
-| :--- | :--- |
-| **Simulators & Physics** | CARLA (0.9.16), SUMO, TraCI, ROS/ROS2 (Learning) |
-| **AI & Computer Vision** | PyTorch, YOLOv11, OpenCV, Albumentations, Scikit-Learn |
-| **Languages & Systems** | Python, C++, SQL, Bash, Git, Docker |
-| **Theory & Control** | Algorithm Design, Markov Decision Processes (MDP), Fuzzy Logic |
+### 🚀 Core Expertise
+*   **Co-Simulation Orchestration:** Bidirectional synchronization of CARLA (3D Physics) and SUMO (Microscopic Traffic) at high frequencies.
+*   **Low-Latency Perception:** Training and deploying custom YOLOv11 networks optimized with TensorRT/ONNX for edge computing.
+*   **Network Optimization:** Designing high-performance routing engines using Graph Theory, Contraction Hierarchies, and GIS data.
 
 ---
 
-## 🔬 Featured Research & Engineering Project
-
-### 🚦 [Adaptive Traffic Management with Hybrid Co-Simulation (CARLA + SUMO)](https://github.com/soheylfalahzade/adaptive-its-priority)
-*An end-to-end intelligent transportation framework that prioritizes emergency vehicles at complex urban intersections.*
-- **Perception:** Custom YOLOv11m trained on synthetic 3D-to-2D auto-labeled CCTV perspective data (>98% mAP).
-- **Physics & Flow:** Dual-simulator synchronization using a custom TraCI Python bridge between CARLA and SUMO.
-- **Decision Engine:** Translating traffic density and vehicle proximity into real-time adaptive phase controls.
-- *(In Progress - Code & Simulation Architecture being uploaded)*
+### 🛠️ Tech Stack & Tooling
+*   **Simulators & Control:** CARLA, SUMO, TraCI, ROS/ROS2
+*   **Deep Learning & CV:** PyTorch, YOLOv11/v8, OpenCV, Albumentations
+*   **Optimization & Inference:** ONNX, TensorRT, Quantization (INT8/FP16)
+*   **Languages & OS:** Python, C++, SQL, Linux (Ubuntu/WSL2), Git
 
 ---
 
-## 📊 GitHub Stats
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=soheylfalahzade&show_icons=true&theme=dark&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="Soheil's GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soheylfalahzade&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Langs" width="48%"/>
-</p>
-
----
-
-## 📫 Let's Connect
-- 💼 **LinkedIn:** [linkedin.com/in/soheyl-falahzade/](https://www.linkedin.com/in/soheyl-falahzade/)
-- 📧 **Academic Email:** [falahzade@stu.yazd.ac.ir](mailto:falahzade@stu.yazd.ac.ir)
+### 📬 Let's Connect!
+*   **LinkedIn:** [linkedin.com/in/soheyl-falahzade](https://linkedin.com/in/soheyl-falahzade/)
+*   **Academic Email:** [falahzade@stu.yazd.ac.ir](mailto:falahzade@stu.yazd.ac.ir)
+*   **Personal Email:** [s.falah1379@gmail.com](mailto:s.falah1379@gmail.com)
