@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="Soheil Falahzade: computer vision and road-network algorithms for emergency mobility" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Soheil Fallahzadeh: computer vision and road-network algorithms for emergency mobility" width="100%"></p>
 
 <p align="center">
   <a href="https://soheylfalahzade.github.io"><img src="https://img.shields.io/badge/Portfolio-soheylfalahzade.github.io-6fa8d6?style=for-the-badge" alt="Portfolio"></a>
