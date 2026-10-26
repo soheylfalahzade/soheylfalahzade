@@ -16,54 +16,63 @@
 
 <p align="center"><img src="assets/pipeline.svg" alt="The eyes, the arteries, the reflexes" width="100%"></p>
 
-## Research repositories
+## 🔬 Research repositories
 
-| Layer | Repository | Headline result |
-|---|---|---|
-| Eyes | [perception-reliability-monitor](https://github.com/soheylfalahzade/perception-reliability-monitor) | Reliability AUC **0.938**; alarm within 3 to 8 s of a real failure |
-| Eyes | [occlusion-aware-queue-estimation](https://github.com/soheylfalahzade/occlusion-aware-queue-estimation) | Bias under occlusion **−2.84 m to −0.63 m** |
-| Eyes | [ev-perception-for-preemption](https://github.com/soheylfalahzade/ev-perception-for-preemption) | Road matching **0.974** vs 0.900; ambulance passage 34.4 s to about 20 s in simulation |
-| Eyes | [vision-travel-time-sensing](https://github.com/soheylfalahzade/vision-travel-time-sensing) | Association precision **0.875** vs 0.558 (appearance only) |
-| Arteries | [geometric-spanners-lab](https://github.com/soheylfalahzade/geometric-spanners-lab) | 990 edges reduced to **77** (92.22% pruned), stretch at most 1.4 |
-| Arteries | [Research_Geometric_ML_Optimization](https://github.com/soheylfalahzade/Research_Geometric_ML_Optimization) | Up to **42.5× faster** than greedy on Rome (42,788 nodes) |
-| Arteries | [delay-bounded-spanner-networks](https://github.com/soheylfalahzade/delay-bounded-spanner-networks) | One backbone certified for all pairs, all 24 hours, 12 cities |
-| Reflexes | [anti-gridlock-signal-control](https://github.com/soheylfalahzade/anti-gridlock-signal-control) | Ambulance delay **143.3 s to 125.0 s** with preemption (p = 0.049) |
+<table>
+<tr><th>Layer</th><th>Repository</th><th>Headline result</th></tr>
+<tr><td>👁️ <b>Eyes</b></td><td><a href="https://github.com/soheylfalahzade/perception-reliability-monitor"><b>perception-reliability-monitor</b></a></td><td>Reliability AUC <b>0.938</b>; alarm within <b>3 to 8 s</b> of a real failure</td></tr>
+<tr><td>👁️ <b>Eyes</b></td><td><a href="https://github.com/soheylfalahzade/occlusion-aware-queue-estimation"><b>occlusion-aware-queue-estimation</b></a></td><td>Bias under occlusion <b>−2.84 m → −0.63 m</b></td></tr>
+<tr><td>👁️ <b>Eyes</b></td><td><a href="https://github.com/soheylfalahzade/ev-perception-for-preemption"><b>ev-perception-for-preemption</b></a></td><td>Road matching <b>0.974</b> vs 0.900; passage <b>34.4 s → ~20 s</b> <sub>(simulation)</sub></td></tr>
+<tr><td>👁️ <b>Eyes</b></td><td><a href="https://github.com/soheylfalahzade/vision-travel-time-sensing"><b>vision-travel-time-sensing</b></a></td><td>Association precision <b>0.875</b> vs 0.558 <sub>(appearance only)</sub></td></tr>
+<tr><td>🛣️ <b>Arteries</b></td><td><a href="https://github.com/soheylfalahzade/geometric-spanners-lab"><b>geometric-spanners-lab</b></a></td><td><b>990 → 77</b> edges (92.22% pruned), stretch ≤ 1.4</td></tr>
+<tr><td>🛣️ <b>Arteries</b></td><td><a href="https://github.com/soheylfalahzade/Research_Geometric_ML_Optimization"><b>Research_Geometric_ML_Optimization</b></a></td><td>Up to <b>42.5× faster</b> than greedy <sub>(Rome, 42,788 nodes)</sub></td></tr>
+<tr><td>🛣️ <b>Arteries</b></td><td><a href="https://github.com/soheylfalahzade/delay-bounded-spanner-networks"><b>delay-bounded-spanner-networks</b></a></td><td>One backbone certified for <b>all pairs, all 24 hours</b>, 12 cities</td></tr>
+<tr><td>⚡ <b>Reflexes</b></td><td><a href="https://github.com/soheylfalahzade/anti-gridlock-signal-control"><b>anti-gridlock-signal-control</b></a></td><td>Ambulance delay <b>143.3 s → 125.0 s</b> <sub>(p = 0.049)</sub></td></tr>
+</table>
 
-## Computer vision and deep learning
+## 📷 Computer vision and deep learning
 
 <table>
 <tr>
-<td width="50%" valign="top"><b><a href="https://github.com/soheylfalahzade/Smart_Traffic_Vision">Smart_Traffic_Vision</a></b><br>Vehicle detection and tracking with YOLOv8.</td>
-<td width="50%" valign="top"><b><a href="https://github.com/soheylfalahzade/Emergency_Vehicle_Recall">Emergency_Vehicle_Recall</a></b><br>Deep learning for identifying and prioritizing emergency vehicles in complex urban environments.</td>
+<td width="50%" valign="top"><h4>🚦 <a href="https://github.com/soheylfalahzade/Smart_Traffic_Vision">Smart_Traffic_Vision</a></h4>Vehicle detection and tracking.<br><sub><kbd>YOLOv8</kbd> <kbd>tracking</kbd> <kbd>Python</kbd></sub></td>
+<td width="50%" valign="top"><h4>🚑 <a href="https://github.com/soheylfalahzade/Emergency_Vehicle_Recall">Emergency_Vehicle_Recall</a></h4>Deep learning for identifying and prioritizing emergency vehicles in complex urban scenes.<br><sub><kbd>deep learning</kbd> <kbd>Python</kbd></sub></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><b><a href="https://github.com/soheylfalahzade/adaptive-its-priority">adaptive-its-priority</a></b><br>Adaptive traffic management for emergency-vehicle priority using hierarchical perception and hybrid CARLA and SUMO co-simulation.</td>
-<td width="50%" valign="top"><b><a href="https://github.com/soheylfalahzade/vision-travel-time-sensing">vision-travel-time-sensing</a></b><br>Edge travel times from sparse camera re-identification, and their effect on spanner bounds.</td>
+<td width="50%" valign="top"><h4>🧠 <a href="https://github.com/soheylfalahzade/adaptive-its-priority">adaptive-its-priority</a></h4>Emergency-vehicle priority with hierarchical perception and hybrid co-simulation.<br><sub><kbd>CARLA</kbd> <kbd>SUMO</kbd> <kbd>Python</kbd></sub></td>
+<td width="50%" valign="top"><h4>📍 <a href="https://github.com/soheylfalahzade/vision-travel-time-sensing">vision-travel-time-sensing</a></h4>Edge travel times from sparse camera re-identification, and their effect on spanner bounds.<br><sub><kbd>re-ID</kbd> <kbd>spanners</kbd> <kbd>Python</kbd></sub></td>
 </tr>
 </table>
 
-## Where the data said no
+## 🧪 Where the data said no
 
-- Knowing the camera had failed did not improve the signals in simulation.
-- Detecting the ambulance earlier did not buy more time on a single queued approach.
-- The learned spanner stopped pruning at Tokyo scale (0.09% of edges removed).
-- The fuzzy controller is slower than both baselines when the bottleneck is loose.
+> [!WARNING]
+> - 🔕 Knowing the camera had failed did **not** improve the signals in simulation.
+> - ⏱️ Detecting the ambulance earlier did **not** buy more time on a single queued approach.
+> - 🗾 The learned spanner stopped pruning at Tokyo scale (**0.09%** of edges removed).
+> - 🐢 The fuzzy controller is slower than both baselines when the bottleneck is loose.
 
-## Working principles
+## 🧭 Working principles
 
-- Every reported number is regenerated by a documented command with explicit seeds.
-- Statistical claims carry intervals or paired comparisons; negative results are reported.
-- Simulation and real data are never mixed without saying so.
+> [!NOTE]
+> 🔁 Every reported number is regenerated by a documented command with explicit seeds.<br>
+> 📐 Statistical claims carry intervals or paired comparisons; negative results are reported.<br>
+> 🧩 Simulation and real data are never mixed without saying so.
 
-## Stack
+## 🧰 Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-detection-00A7B5?style=flat-square)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![SUMO](https://img.shields.io/badge/SUMO-traffic_simulation-2b3a47?style=flat-square)
-![CARLA](https://img.shields.io/badge/CARLA-co--simulation-2b3a47?style=flat-square)
-![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white)
-![Fuzzy logic](https://img.shields.io/badge/Fuzzy_logic-2b3a47?style=flat-square)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
+<img src="https://img.shields.io/badge/YOLOv8-00A7B5?style=for-the-badge" alt="YOLOv8">
+</p>
+<p>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
+<img src="https://img.shields.io/badge/SUMO-2b3a47?style=flat-square" alt="SUMO">
+<img src="https://img.shields.io/badge/CARLA-2b3a47?style=flat-square" alt="CARLA">
+<img src="https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white" alt="OpenStreetMap">
+<img src="https://img.shields.io/badge/Fuzzy_logic-2b3a47?style=flat-square" alt="Fuzzy logic">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+</p>
+
+<p align="center"><sub>🚑 Built to get one ambulance through one city, a little faster.</sub></p>
