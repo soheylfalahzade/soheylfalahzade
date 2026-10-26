@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="Soheil Falahzade: perception, road networks and signal control for emergency mobility" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Soheil Falahzade: computer vision and road-network algorithms for emergency mobility" width="100%"></p>
 
 <p align="center">
   <a href="https://soheylfalahzade.github.io"><img src="https://img.shields.io/badge/Portfolio-soheylfalahzade.github.io-6fa8d6?style=for-the-badge" alt="Portfolio"></a>
@@ -10,19 +10,13 @@
 
 <p align="center">Open-source research on seeing traffic, simplifying road networks and controlling signals.<br>Every number links to a command that regenerates it, including the results that did not work.</p>
 
----
+<p align="center"><img src="assets/stats.svg" alt="Headline results" width="100%"></p>
 
-## The system at a glance
+## The system
 
-<table>
-<tr>
-<td width="33%" valign="top"><h4>The eyes</h4>Cameras get fooled by rain, glare and parked trucks. These repositories measure how far to trust them.</td>
-<td width="33%" valign="top"><h4>The arteries</h4>A road network with tens of thousands of segments, reduced to a sparse backbone that keeps detours bounded.</td>
-<td width="33%" valign="top"><h4>The reflexes</h4>A signal controller that moves traffic without blocking its own junction, and clears the way for an ambulance.</td>
-</tr>
-</table>
+<p align="center"><img src="assets/pipeline.svg" alt="The eyes, the arteries, the reflexes" width="100%"></p>
 
-## Repositories
+## Research repositories
 
 | Layer | Repository | Headline result |
 |---|---|---|
@@ -35,7 +29,18 @@
 | Arteries | [delay-bounded-spanner-networks](https://github.com/soheylfalahzade/delay-bounded-spanner-networks) | One backbone certified for all pairs, all 24 hours, 12 cities |
 | Reflexes | [anti-gridlock-signal-control](https://github.com/soheylfalahzade/anti-gridlock-signal-control) | Ambulance delay **143.3 s to 125.0 s** with preemption (p = 0.049) |
 
-Earlier work: [adaptive-its-priority](https://github.com/soheylfalahzade/adaptive-its-priority), [Emergency_Vehicle_Recall](https://github.com/soheylfalahzade/Emergency_Vehicle_Recall), [Smart_Traffic_Vision](https://github.com/soheylfalahzade/Smart_Traffic_Vision).
+## Computer vision and deep learning
+
+<table>
+<tr>
+<td width="50%" valign="top"><b><a href="https://github.com/soheylfalahzade/Smart_Traffic_Vision">Smart_Traffic_Vision</a></b><br>Vehicle detection and tracking with YOLOv8.</td>
+<td width="50%" valign="top"><b><a href="https://github.com/soheylfalahzade/Emergency_Vehicle_Recall">Emergency_Vehicle_Recall</a></b><br>Deep learning for identifying and prioritizing emergency vehicles in complex urban environments.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><b><a href="https://github.com/soheylfalahzade/adaptive-its-priority">adaptive-its-priority</a></b><br>Adaptive traffic management for emergency-vehicle priority using hierarchical perception and hybrid CARLA and SUMO co-simulation.</td>
+<td width="50%" valign="top"><b><a href="https://github.com/soheylfalahzade/vision-travel-time-sensing">vision-travel-time-sensing</a></b><br>Edge travel times from sparse camera re-identification, and their effect on spanner bounds.</td>
+</tr>
+</table>
 
 ## Where the data said no
 
@@ -54,9 +59,11 @@ Earlier work: [adaptive-its-priority](https://github.com/soheylfalahzade/adaptiv
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-detection-00A7B5?style=flat-square)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![SUMO](https://img.shields.io/badge/SUMO-traffic_simulation-2b3a47?style=flat-square)
+![CARLA](https://img.shields.io/badge/CARLA-co--simulation-2b3a47?style=flat-square)
 ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white)
 ![Fuzzy logic](https://img.shields.io/badge/Fuzzy_logic-2b3a47?style=flat-square)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
