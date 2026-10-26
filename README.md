@@ -1,39 +1,62 @@
-# Soheil Falahzade
+<p align="center"><img src="assets/banner.svg" alt="Soheil Falahzade: perception, road networks and signal control for emergency mobility" width="100%"></p>
 
-Algorithms and perception for urban traffic networks: geometric spanners, signal control, and the camera-based sensing layer that feeds them. All repositories are open-source, tested, typed and reproducible from a single command; results are reported with their limitations.
+<p align="center">
+  <a href="https://soheylfalahzade.github.io"><img src="https://img.shields.io/badge/Portfolio-soheylfalahzade.github.io-6fa8d6?style=for-the-badge" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/soheyl-falahzade"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <img src="https://img.shields.io/badge/Yazd_University-M.Sc._Computer_Science-2b3a47?style=for-the-badge" alt="Yazd University">
+</p>
 
-```mermaid
-flowchart LR
-    S[geometric-spanners-lab] --> D[delay-bounded-spanner-networks]
-    D --> V[vision-travel-time-sensing]
-    G[anti-gridlock-signal-control] --> Q[occlusion-aware-queue-estimation]
-    Q --> R[perception-reliability-monitor]
-    G --> E[ev-perception-for-preemption]
-    R --> G
-    V --> D
-```
+<h3 align="center">How does a city get an ambulance through when its cameras can fail and its streets are full?</h3>
 
-## Graph and control
+<p align="center">Open-source research on seeing traffic, simplifying road networks and controlling signals.<br>Every number links to a command that regenerates it, including the results that did not work.</p>
 
-| repository | what it does |
-|---|---|
-| [geometric-spanners-lab](https://github.com/soheylfalahzade/geometric-spanners-lab) | benchmarks classical greedy geometric spanners on real-world OpenStreetMap road networks |
-| [delay-bounded-spanner-networks](https://github.com/soheylfalahzade/delay-bounded-spanner-networks) | time-varying geometric spanners that extract a sparse urban backbone with bounded travel-time dilation over 24 h of traffic fluctuation |
-| [anti-gridlock-signal-control](https://github.com/soheylfalahzade/anti-gridlock-signal-control) | local fuzzy-logic max-pressure control in SUMO to prevent junction spillback under heavy traffic |
+---
 
-## Perception layer
+## The system at a glance
 
-Each repository states what is simulated, what is measured, and which claims the evidence does not support (see the "Claims and evidence" and "Threats to validity" sections).
+<table>
+<tr>
+<td width="33%" valign="top"><h4>The eyes</h4>Cameras get fooled by rain, glare and parked trucks. These repositories measure how far to trust them.</td>
+<td width="33%" valign="top"><h4>The arteries</h4>A road network with tens of thousands of segments, reduced to a sparse backbone that keeps detours bounded.</td>
+<td width="33%" valign="top"><h4>The reflexes</h4>A signal controller that moves traffic without blocking its own junction, and clears the way for an ambulance.</td>
+</tr>
+</table>
 
-| repository | problem | headline result (simulation-based) |
+## Repositories
+
+| Layer | Repository | Headline result |
 |---|---|---|
-| [occlusion-aware-queue-estimation](https://github.com/soheylfalahzade/occlusion-aware-queue-estimation) | lane-level queue length under occlusion from roadside cameras | systematic bias -2.84 m to -0.63 m; error 15-39% lower in occluded cases; no significant overall MAE change |
-| [ev-perception-for-preemption](https://github.com/soheylfalahzade/ev-perception-for-preemption) | emergency-vehicle events on the road graph for signal preemption | map-matching accuracy 0.974 vs 0.900 (nearest edge); p95 1.9 ms per frame; paired SUMO study 34.4 s to about 20 s |
-| [perception-reliability-monitor](https://github.com/soheylfalahzade/perception-reliability-monitor) | ground-truth-free reliability monitoring and graceful degradation | reliability AUC 0.938; closed-loop control benefit not supported in the studied setting |
-| [vision-travel-time-sensing](https://github.com/soheylfalahzade/vision-travel-time-sensing) | edge travel times from sparse camera re-identification and their effect on spanner bounds | association precision 0.875 vs 0.558 (appearance only); edge MAPE 0.227 vs 0.256 (global level) |
+| Eyes | [perception-reliability-monitor](https://github.com/soheylfalahzade/perception-reliability-monitor) | Reliability AUC **0.938**; alarm within 3 to 8 s of a real failure |
+| Eyes | [occlusion-aware-queue-estimation](https://github.com/soheylfalahzade/occlusion-aware-queue-estimation) | Bias under occlusion **−2.84 m to −0.63 m** |
+| Eyes | [ev-perception-for-preemption](https://github.com/soheylfalahzade/ev-perception-for-preemption) | Road matching **0.974** vs 0.900; ambulance passage 34.4 s to about 20 s in simulation |
+| Eyes | [vision-travel-time-sensing](https://github.com/soheylfalahzade/vision-travel-time-sensing) | Association precision **0.875** vs 0.558 (appearance only) |
+| Arteries | [geometric-spanners-lab](https://github.com/soheylfalahzade/geometric-spanners-lab) | 990 edges reduced to **77** (92.22% pruned), stretch at most 1.4 |
+| Arteries | [Research_Geometric_ML_Optimization](https://github.com/soheylfalahzade/Research_Geometric_ML_Optimization) | Up to **42.5× faster** than greedy on Rome (42,788 nodes) |
+| Arteries | [delay-bounded-spanner-networks](https://github.com/soheylfalahzade/delay-bounded-spanner-networks) | One backbone certified for all pairs, all 24 hours, 12 cities |
+| Reflexes | [anti-gridlock-signal-control](https://github.com/soheylfalahzade/anti-gridlock-signal-control) | Ambulance delay **143.3 s to 125.0 s** with preemption (p = 0.049) |
+
+Earlier work: [adaptive-its-priority](https://github.com/soheylfalahzade/adaptive-its-priority), [Emergency_Vehicle_Recall](https://github.com/soheylfalahzade/Emergency_Vehicle_Recall), [Smart_Traffic_Vision](https://github.com/soheylfalahzade/Smart_Traffic_Vision).
+
+## Where the data said no
+
+- Knowing the camera had failed did not improve the signals in simulation.
+- Detecting the ambulance earlier did not buy more time on a single queued approach.
+- The learned spanner stopped pruning at Tokyo scale (0.09% of edges removed).
+- The fuzzy controller is slower than both baselines when the bottleneck is loose.
 
 ## Working principles
 
 - Every reported number is regenerated by a documented command with explicit seeds.
 - Statistical claims carry intervals or paired comparisons; negative results are reported.
 - Simulation and real data are never mixed without saying so.
+
+## Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![SUMO](https://img.shields.io/badge/SUMO-traffic_simulation-2b3a47?style=flat-square)
+![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white)
+![Fuzzy logic](https://img.shields.io/badge/Fuzzy_logic-2b3a47?style=flat-square)
