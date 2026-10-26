@@ -2,13 +2,19 @@
 
 <p align="center">
   <a href="https://soheylfalahzade.github.io"><img src="https://img.shields.io/badge/Portfolio-soheylfalahzade.github.io-6fa8d6?style=for-the-badge" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/soheyl-falahzade"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/soheyl-falahzade/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <img src="https://img.shields.io/badge/Yazd_University-M.Sc._Computer_Science-2b3a47?style=for-the-badge" alt="Yazd University">
 </p>
 
 <h3 align="center">How does a city get an ambulance through when its cameras can fail and its streets are full?</h3>
 
 <p align="center">Open-source research on seeing traffic, simplifying road networks and controlling signals.<br>Every number links to a command that regenerates it, including the results that did not work.</p>
+
+<p align="center">
+  <a href="https://soheylfalahzade.github.io"><img src="https://img.shields.io/badge/%F0%9F%9A%91_Read_the_story-soheylfalahzade.github.io-ffb454?style=for-the-badge&labelColor=0a1017" alt="Read the story on the portfolio"></a>
+</p>
+
+<p align="center"><i>Every GitHub story has a first commit. Mine starts with one question about an ambulance,<br>and the portfolio tells it as a journey you can click through.</i></p>
 
 <p align="center"><img src="assets/stats.svg" alt="Headline results" width="100%"></p>
 
