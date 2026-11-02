@@ -27,7 +27,7 @@
 <table>
 <tr><th>Layer</th><th>Repository</th><th>Headline result</th></tr>
 <tr><td>👁️ <b>Eyes</b></td><td><a href="https://github.com/soheylfalahzade/perception-reliability-monitor"><b>perception-reliability-monitor</b></a></td><td>Reliability AUC <b>0.938</b>; alarm within <b>3 to 8 s</b> of a real failure</td></tr>
-<tr><td>👁️ <b>Eyes</b></td><td><a href="https://github.com/soheylfalahzade/real-footage-perception-validation"><b>real-footage-perception-validation</b></a></td><td>Real highway footage, unmodified detector: held-out AUC <b>0.87 to 0.97</b> <sub>(calibration did not transfer)</sub></td></tr>
+<tr><td>👁️ <b>Eyes</b></td><td><a href="https://github.com/soheylfalahzade/real-footage-perception-validation"><b>real-footage-perception-validation</b></a></td><td>Human-labelled UA-DETRAC (12 clips): combined AUC <b>0.973</b>, median ECE <b>0.036</b> <sub>(calibration did not transfer between two pseudo-labelled clips)</sub></td></tr>
 <tr><td>👁️ <b>Eyes</b></td><td><a href="https://github.com/soheylfalahzade/occlusion-aware-queue-estimation"><b>occlusion-aware-queue-estimation</b></a></td><td>Bias under occlusion <b>−2.84 m → −0.63 m</b></td></tr>
 <tr><td>👁️ <b>Eyes</b></td><td><a href="https://github.com/soheylfalahzade/ev-perception-for-preemption"><b>ev-perception-for-preemption</b></a></td><td>Road matching <b>0.974</b> vs 0.900; passage <b>34.4 s → ~20 s</b> <sub>(simulation)</sub></td></tr>
 <tr><td>👁️ <b>Eyes</b></td><td><a href="https://github.com/soheylfalahzade/vision-travel-time-sensing"><b>vision-travel-time-sensing</b></a></td><td>Association precision <b>0.875</b> vs 0.558 <sub>(appearance only)</sub></td></tr>
@@ -52,10 +52,10 @@
 
 ## 🧪 Where the data said no
 
-> [!WARNING]
-> - 🎯 Reliability probabilities did **not** transfer between two real camera clips (calibration error **0.12 to 0.23** vs 0.05 within a clip).
+> [!NOTE]
+> - 🎯 Reliability probabilities did **not** transfer between two pseudo-labelled real clips (calibration error **0.12 to 0.23**); against human boxes on 12 UA-DETRAC clips the median error is 0.036, worst 0.116.
 > - 🔕 Knowing the camera had failed did **not** improve the signals in simulation.
-> - ⏱️ Detecting the ambulance earlier did **not** buy more time on a single queued approach.
+> - ⏱️ Detecting the ambulance earlier did **not** buy more time on a moderately queued approach; it does once demand doubles (benefit 12.5 s at 30 m, 33.5 s at 150 m).
 > - 🗾 The learned spanner stopped pruning at Tokyo scale (**0.09%** of edges removed).
 > - 🐢 The fuzzy controller is slower than both baselines when the bottleneck is loose.
 
