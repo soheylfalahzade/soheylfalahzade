@@ -35,6 +35,7 @@
 <tr><td>🛣️ <b>Arteries</b></td><td><a href="https://github.com/soheylfalahzade/Research_Geometric_ML_Optimization"><b>Research_Geometric_ML_Optimization</b></a></td><td>Up to <b>42.5× faster</b> than greedy <sub>(Rome, 42,788 nodes)</sub></td></tr>
 <tr><td>🛣️ <b>Arteries</b></td><td><a href="https://github.com/soheylfalahzade/delay-bounded-spanner-networks"><b>delay-bounded-spanner-networks</b></a></td><td>One backbone certified for <b>all pairs, all 24 hours</b>, 12 cities</td></tr>
 <tr><td>⚡ <b>Reflexes</b></td><td><a href="https://github.com/soheylfalahzade/anti-gridlock-signal-control"><b>anti-gridlock-signal-control</b></a></td><td>Ambulance delay <b>143.3 s → 125.0 s</b> <sub>(p = 0.049)</sub></td></tr>
+<tr><td>🔗 <b>Bridge</b></td><td><a href="https://github.com/soheylfalahzade/perception-aware-corridor-control"><b>perception-aware-corridor-control</b></a></td><td>Reliability-aware inputs recover <b>17.1 s</b> of corridor delay under a degraded camera <sub>(emulated perception, SUMO)</sub></td></tr>
 </table>
 
 ## 📷 Computer vision and deep learning
