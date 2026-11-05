@@ -35,7 +35,7 @@
 <tr><td>🛣️ <b>Arteries</b></td><td><a href="https://github.com/soheylfalahzade/Research_Geometric_ML_Optimization"><b>Research_Geometric_ML_Optimization</b></a></td><td>Up to <b>42.5× faster</b> than greedy <sub>(Rome, 42,788 nodes)</sub></td></tr>
 <tr><td>🛣️ <b>Arteries</b></td><td><a href="https://github.com/soheylfalahzade/delay-bounded-spanner-networks"><b>delay-bounded-spanner-networks</b></a></td><td>One backbone certified for <b>all pairs, all 24 hours</b>, 12 cities</td></tr>
 <tr><td>⚡ <b>Reflexes</b></td><td><a href="https://github.com/soheylfalahzade/anti-gridlock-signal-control"><b>anti-gridlock-signal-control</b></a></td><td>Ambulance delay <b>143.3 s → 125.0 s</b> <sub>(p = 0.049)</sub></td></tr>
-<tr><td>🔗 <b>Bridge</b></td><td><a href="https://github.com/soheylfalahzade/perception-aware-corridor-control"><b>perception-aware-corridor-control</b></a></td><td>Reliability-aware inputs recover <b>17.1 s</b> of corridor delay under a degraded camera <sub>(emulated perception, SUMO)</sub></td></tr>
+<tr><td>🔗 <b>Bridge</b></td><td><a href="https://github.com/soheylfalahzade/perception-aware-corridor-control"><b>perception-aware-corridor-control</b></a></td><td>Reliability-aware inputs recover <b>18.6 s</b> of corridor delay when the camera is replayed from night footage <sub>(real-footage replay, SUMO)</sub></td></tr>
 </table>
 
 ## 📷 Computer vision and deep learning
@@ -59,6 +59,8 @@
 > - ⏱️ Detecting the ambulance earlier did **not** buy more time on a moderately queued approach; it does once demand doubles (benefit 12.5 s at 30 m, 33.5 s at 150 m).
 > - 🗾 The learned spanner stopped pruning at Tokyo scale (**0.09%** of edges removed).
 > - 🐢 The fuzzy controller is slower than both baselines when the bottleneck is loose.
+> - 🛤️ A spanner backbone route with stretch 1.28 cost the emergency vehicle **26 to 35 %** more time than the shortest route; preempting earlier did not remove the extra delay on its worst segment.
+> - 🌧️ With the camera replayed from rain footage, the gain of the reliability score over plain counts could not be resolved (intervals contain zero).
 
 ## 🧭 Working principles
 
